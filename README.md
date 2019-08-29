@@ -33,7 +33,7 @@ To utilize the files in this repo, we recommend the following folder structure:
 
 ### Write out the CADCD annotations into KITTI Format : filtermoosekitti.py 
 
-The script converts the CADCD json annotations into the the KITTI format. Only tracklets that have a minimum of 20 lidar points are considered for the conversion of the CADCD annotations to the KITTI format as part of ground truth.
+The script converts the CADCD json annotations into the the KITTI format. Only tracklets that have a minimum of 20 lidar points are considered for the conversion to the KITTI format as part of ground truth.
 For each tracklet, the script calculates the truncation, observation angle, pixel coordinates of the 2D bounding box from the given 3D bounding box, and the rotation about the Y-axis of the camera from the given yaw angle about the lidar sensor. 
 As the occlusion information was not provided, we set occlusion to ‘0: fully visible’ in the ground truth labels. 
 This is to ensure that the annotations can be split into ‘Easy’, ‘Moderate’ and ‘Hard’ categories according to the KITTI standard.
