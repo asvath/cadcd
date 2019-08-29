@@ -31,3 +31,10 @@ The figure below shows an example of the annotations before and after running th
 
 ![alt text](https://github.com/asvath/cadcd/blob/master/pics/annotations_before_conversion.png)
 ![alt text](https://github.com/asvath/cadcd/blob/master/pics/annotations_after_conversion.png)
+
+### Visualize the CADCD annotations in KITTI Format with lidar points : visualize_kitti_format_tracklet_with_lidar_points.py
+
+The script enables us to visualize the KITTI format CADCD annotations. This includes visualizing the lidar points that "belong" to the tracklets. This can be edited to only show the tracklets. The figure below shows an example of a visualization with the lidar points.
+
+![alt text](https://github.com/asvath/cadcd/blob/master/pics/tracklets_w_lidar.png)
+
