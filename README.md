@@ -36,14 +36,17 @@ The figure below shows an example of the annotations before and after running th
 
 The script enables us to visualize the KITTI format CADCD annotations. This includes visualizing the lidar points that "belong" to the tracklets. This can be edited to only show the tracklets. The figure below shows an example of a visualization with the lidar points.
 
-![alt text](https://github.com/asvath/cadcd/blob/master/pics/tracklets_w_lidar.png)
+
+<img src="https://github.com/asvath/cadcd/blob/master/pics/tracklets_w_lidar.png width="600" height="800">
+
+
 
 
 ### Visualize the CADCD annotations in birds eye view with lidar points : birds_eye_view.py
 
 The script enables us to visualize the CADCD annotations in birds eye view (BEV) with lidar points. The figure below shows an example of the annotations in BEV.
 
-<img src="https://github.com/asvath/cadcd/blob/master/pics/moose_bev_11.png" width="400" height="400">
+<img src="https://github.com/asvath/cadcd/blob/master/pics/moose_bev_11.png" width="500" height="500">
 
 
 ### Generate ground planes : mooseplanes.py
