@@ -37,7 +37,7 @@ The figure below shows an example of the annotations before and after running th
 The script enables us to visualize the KITTI format CADCD annotations. This includes visualizing the lidar points that "belong" to the tracklets. This can be edited to only show the tracklets. The figure below shows an example of a visualization with the lidar points.
 
 
-<img src="https://github.com/asvath/cadcd/blob/master/pics/tracklets_w_lidar.png" width="500" height="500">
+<img src="https://github.com/asvath/cadcd/blob/master/pics/tracklets_w_lidar.png" width="550" height="400">
 
 
 
