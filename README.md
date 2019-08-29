@@ -56,7 +56,7 @@ To generate ground planes for CADCD, we utilized the estimate_plane_coeffs and e
 We can convert the CADCD lidar binary format files (.bin) to a single rosbag (.bag) format file by utilizing the moose2bag.py script. It was made by modifying the publicly available kitti2bag.py script
 (https://github.com/tomas789/kitti2bag).
 
-### Convert text files with lidar info into binary files
+### Convert text files with lidar info into binary files : text2binary.py
 
 We can convert text files with lidar info into binary files by utilizing the text2binary.py script
 
