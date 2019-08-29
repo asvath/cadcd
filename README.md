@@ -38,3 +38,18 @@ The script enables us to visualize the KITTI format CADCD annotations. This incl
 
 ![alt text](https://github.com/asvath/cadcd/blob/master/pics/tracklets_w_lidar.png)
 
+### Write out the CADCD binary lidar files into a single ROS bag file : moose2bag.py 
+We can convert the CADCD lidar binary format files (.bin) to a single rosbag (.bag) format file by utilizing the moose2bag.py script. It was made by modifying the publicly available kitti2bag.py script
+(https://github.com/tomas789/kitti2bag).
+
+### Convert text files with lidar info into binary files
+
+We can convert text files with lidar info into binary files by utilizing the text2binary.py script
+
+There is an example of the lidar text file  :
+
+	Example:
+	5.942 0.3772 -2.259 0.01961
+	-69.89 5.341 -1.975 0.07059
+	-9.1 0.2299 -2.233 0.03922
+	-12.19 0.8624 -2.216 0.03922
