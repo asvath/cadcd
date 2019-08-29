@@ -11,7 +11,7 @@ The occlusion information of the objects was not included. A full CADCD datatset
 at 10Hz will be released in the future. 
 
 ### Folder structure
-To utilize the files in this repo, we had the following folder structure:
+To utilize the files in this repo, we recommend the following folder structure:
 
 	calibmoose/
 	├── F.yaml, B.yaml etc
