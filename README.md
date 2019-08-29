@@ -38,7 +38,14 @@ The script enables us to visualize the KITTI format CADCD annotations. This incl
 
 ![alt text](https://github.com/asvath/cadcd/blob/master/pics/tracklets_w_lidar.png)
 
-### Write out the CADCD binary lidar files into a single ROS bag file : moose2bag.py 
+
+### Visualize the CADCD annotations in birds eye view with lidar points : birds_eye_view.py
+
+The script enables us to visualize the CADCD annotations in birds eye view (BEV) with lidar points. The figure below shows an example of the annotations in BEV.
+
+![alt text](https://github.com/asvath/cadcd/blob/master/pics/moose_bev_11.png)
+
+### Write out the CADCD binary lidar files into a single ROS bag fmoose_bev_11ile : moose2bag.py 
 We can convert the CADCD lidar binary format files (.bin) to a single rosbag (.bag) format file by utilizing the moose2bag.py script. It was made by modifying the publicly available kitti2bag.py script
 (https://github.com/tomas789/kitti2bag).
 
