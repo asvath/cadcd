@@ -3,7 +3,7 @@
 Credit: TraiLab 
 
 In this repo, we have tools for the CADCD. The CADCD was created by researchers from the University of Toronto Artificial Intelligence Laboratory (TRAILab) and 
-the University of Waterloo Intelligent SystemsEngineering Lab (WISELab). The data was gathered using the 
+the University of Waterloo Intelligent Systems Engineering Lab (WISELab). The data was gathered using the 
 Autonomoose (https://www.autonomoose.net) in Waterloo during the winter thus capturing adverse weather conditions. 
 The 3D annotations of objects were done by ensuring that each tracklet was covered by at least five lidarpoints. 
 The annotations were made by expert annotators at Scale (https://scale.com/) and validation steps are currently ongoing.
