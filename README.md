@@ -12,24 +12,24 @@ at 10Hz will be released in the future.
 
 ### Folder structure
 To utilize the files in this repo, we recommend the following folder structure:
-
-	calibmoose/
-	├── F.yaml, B.yaml etc
-	│ 
-	devmoose/
-	├── filterkittimoose.py, etc (all files from the repo)/
-	│ 
-	processedmoose/
-	├── image_0[0-7]/
-	│   └── 0000000001.png
-	├── lidar_points/
-	│   └── data/
-	│     │ └── 0000000001.bin
-	│     └── timestamps.txt
-	│ 
-	└── 3d_annotations.json
-    
-
+	
+	autonomoose/
+	└── calibmoose/
+	│	└── F.yaml, B.yaml etc
+	│
+	└──devmoose/
+	│	└── filterkittimoose.py, etc (all files from the repo)
+	│
+	└──processedmoose/
+	│	└── image_0[0-7]/
+	│	│	└── 0000000001.png
+	│	└── lidar_points/
+	│		└── data/
+	│		│	└── 0000000001.bin
+	│     		└── timestamps.txt
+	│			
+	└── 3d_annotations.json			
+	
 
 ### Write out the CADCD annotations into KITTI Format : filtermoosekitti.py 
 
