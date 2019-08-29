@@ -11,12 +11,6 @@ The occlusion information of the objects was not included. A full CADCD datatset
 at 10Hz will be released in the future. 
 
 
-
-
-
-![alt text](https://github.com/asvath/mobile_robotics/blob/master/final%20results/3d.png)
-![alt text](https://github.com/asvath/mobile_robotics/blob/master/final%20results/2dbb.png)
-
 ### Write out the CADCD annotations into KITTI Format : filtermoosekitti.py 
 
 We convert the CADCD json annotations into the the KITTI format. Only tracklets that have a minimum of 20 lidar points were 
@@ -34,3 +28,7 @@ Note that CADCD has 8 cameras and the sample that we worked on consists of 800 f
 
 Fig 2. shows an example of
 the annotations before and after running the script. 
+
+
+![alt text](https://github.com/asvath/cadcd/blob/master/pics/annotations_before_conversion.png)
+![alt text](https://github.com/asvath/cadcd/blob/master/pics/annotations_after_conversion.png)
