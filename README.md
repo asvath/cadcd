@@ -26,8 +26,7 @@ Note that CADCD has 8 cameras and the sample that we worked on consists of 800 f
 	$python filtermoosekitti.py
 
 
-Fig 2. shows an example of
-the annotations before and after running the script. 
+The figure below shows an example of the annotations before and after running the script. 
 
 
 ![alt text](https://github.com/asvath/cadcd/blob/master/pics/annotations_before_conversion.png)
