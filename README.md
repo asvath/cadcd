@@ -18,7 +18,7 @@ To utilize the files in this repo, we recommend the following folder structure:
 	│	└── F.yaml, B.yaml etc
 	│
 	└──devmoose/
-	│	└── filterkittimoose.py, etc (all files from the repo)
+	│	└── filterkittimoose.py, etc (all files from the repo and cadcd devkit)
 	│
 	└──processedmoose/
 	│	└── image_0[0-7]/
