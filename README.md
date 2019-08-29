@@ -17,7 +17,7 @@ at 10Hz will be released in the future.
 ![alt text](https://github.com/asvath/mobile_robotics/blob/master/final%20results/3d.png)
 ![alt text](https://github.com/asvath/mobile_robotics/blob/master/final%20results/2dbb.png)
 
-## filtermoosekitt.py : Write out the CADCD annotations into KITTI Format
+### Write out the CADCD annotations into KITTI Format : filtermoosekitt.py 
 
 We convert the CADCD json annotations into the the KITTI format. Only tracklets that have a minimum of 20 lidar points were 
 considered for the conversion of the CADCD annotations to the KITTI format as part of ground truth.
