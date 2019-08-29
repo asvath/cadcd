@@ -25,13 +25,15 @@ Note that CADCD has 8 cameras and the sample that we worked on consists of 800 f
 	Example:
 	$python filtermoosekitti.py
 
-There is an example of the output annotation file:
+There is an example of the output annotation file with follows the kitti format:
 
 
 	Example:
 	Car 0 0 1.68 558.02 504.09 585.82 527.24 1.76 1.8 3.9 -5.47 2.85 52.91 1.57 
 	Car 0.07 0 0.7 0 515.22 105.06 546.83 1.51 1.79 4.13 -30.47 2.81 34.05 -0.03 
 	Car 0 0 -2.44 101.5 507.98 194.65 538.23 1.79 2.0 4.36 -30.53 2.89 40.97 -3.09 
+	
+Note that the y center coordinates is on the ground instead of the spatial center of the tracketlet. The x and z coordinates are in the spatial center. The format for KITTI labels is explained in the readme.txt from the "Object Development Kit".
 
 
 The figure below shows an example of the annotations before and after running the script. 
