@@ -1,6 +1,6 @@
 # Tools for the Canadian Adverse Driving Conditions Dataset (CADCD)
 
-Credit: TraiLab 
+Credit: TRAILab 
 
 In this repo, we have tools for the CADCD. The CADCD was created by researchers from the University of Toronto Artificial Intelligence Laboratory (TRAILab) and 
 the University of Waterloo Intelligent Systems Engineering Lab (WISELab). The data was gathered using the 
