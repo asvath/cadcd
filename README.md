@@ -18,7 +18,7 @@ To utilize the files in this repo, we recommend the following folder structure:
 	│	└── F.yaml, B.yaml etc
 	│
 	└──devmoose/
-	│	└── filterkittimoose.py, etc (all files from the repo and cadcd devkit)
+	│	└── filterkittimoose.py, etc (all files from this repo and cadcd devkit)
 	│
 	└──processedmoose/
 	│	└── image_0[0-7]/
@@ -38,7 +38,7 @@ For each tracklet, the script calculates the truncation, observation angle, pixe
 As the occlusion information was not provided, we set occlusion to ‘0: fully visible’ in the ground truth labels. 
 This is to ensure that the annotations can be split into ‘Easy’, ‘Moderate’ and ‘Hard’ categories according to the KITTI standard.
 
-Note that CADCD has 8 cameras and the sample that we worked on consists of 800 frames; 100 from each frame. We do not have a reference camera (KITTI has a reference camera 0). Our script outputs the annotations for each frame wrt to the camera that the frame comes from. The output files have names that reflect the camera. E.g CAM 0: 0000000001.txt, whereas CAM 7: 0000000701.txt. The files will be in output directories: e.g annotation_00, annotation_07 etc.
+Note that CADCD has 8 cameras and the sample that we worked on consists of 800 frames; 100 from each camera. We do not have a reference camera (KITTI has a reference camera 0). Our script outputs the annotations for each frame wrt to the camera that the frame comes from. The output files have names that reflect the camera. E.g CAM 0: 0000000001.txt, whereas CAM 7: 0000000701.txt. The files will be in output directories: e.g annotation_00, annotation_07 etc.
 
 
 	Example:
